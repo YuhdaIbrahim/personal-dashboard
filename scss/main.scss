@@ -1,0 +1,53 @@
+@import 'utilities/variabel';
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+    list-style: none;
+}
+
+.wrapper {
+    padding: 60px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#content {
+    width: 100%;
+    // padding: 250px;
+    transition: all 0.3s;
+}
+
+.wrapper.active .page-content {
+    padding-left: 250px;
+}
+
+.wrapper {
+    display: flex;
+    text-decoration: none;
+    transition: all 0.3s;
+    padding: 60px;
+}
+
+@import 'components/navbar';
+@import 'components/sidebar';

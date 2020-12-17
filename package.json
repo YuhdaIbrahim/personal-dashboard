@@ -1,0 +1,14 @@
+{
+  "name": "dashboard-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o assets/css/ --recursive"
+  },
+  "author": "Alvin",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
